@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.annotation.Resource;
 
 /**
- * 公共异常处理类
+ * 公共异常处理类 hello world!
  */
 @ControllerAdvice
 public class BaseExceptionHandler {
