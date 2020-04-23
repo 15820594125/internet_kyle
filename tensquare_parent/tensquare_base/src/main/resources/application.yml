@@ -1,0 +1,14 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: tensquare-base   # 微服务名称，在单个微服务的时候没用，在多个服务调用时候有用！！
+  datasource:
+    url: jdbc:mysql://192.168.66.133:3306/tensquare_base?characterEncoding=UTF8
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+  jpa:
+    show-sql: true  # 打印jpa生成的sql语句，方便调试
+    generate-ddl: true # 自动建表
+    database: mysql  # 可以省略的
